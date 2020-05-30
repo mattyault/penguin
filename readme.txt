@@ -2,7 +2,9 @@
 HOW TO VIEW:
 ====================
 
-To view, download the entire contents and open \index.htm in your browser.
+To view, download the entire contents of the repository, place in a web server and open \index.htm in your browser: e.g. http://localhost/penguin/index.htm
+
+Due to the use of XMLHttpRequests in the solution it is not possible to open the index.htm directly from the filesystem.
 
 
 ====================
@@ -11,8 +13,8 @@ NOTES & LIMITATIONS
 
 1) The solution has been written in plain JavaScript, CSS and HTML.
 2) The solution is set to display all the data in a single line across on the page and adapt to any viewport width for mobiles / tablets etc.
-3) Without knowing compatibility the soution uses "flexbox" and "vw units" where "vw units" have been used, em and px alternatives have been specified as fallback values. It should render all the way back to IE 10!
-4) The solution should handle any missing data for the books incuding the cover images which if found to be missing will display a default image instead.
+3) The solution uses "flexbox" and "vw units" where "vw units" have been used, em and px alternatives have been specified as fallback values. The page should render up to IE 10 correctly!
+4) The solution should handle any missing data for the books including the cover images which if found to be missing will display a default image instead.
 
 
 ====================
